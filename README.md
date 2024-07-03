@@ -5,6 +5,7 @@ This is a simple set of files for playing a Table Top Role Playing Game (TTRPG) 
 # Installation
 1. create a new virtual environment
    > conda create -n "delver" python=3.11
+   
    > conda activate delver
 2. Get an API key from Google
     > https://aistudio.google.com/app/apikey
