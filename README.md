@@ -14,11 +14,14 @@ This is a simple set of files for playing a Table Top Role Playing Game (TTRPG) 
 4. Install dependancies
     > pip install -r requirements.txt
 5. Collect source material
+
     The script will import PDF, epub, txt, markdown. This is all text based so it won't work with maps, etc. I find a collection of RPG books, novels, fan fiction, etc works well. Make sure everything is all from the same world. Use a new collection name for each world. You want it to return information relevant to the specific world you are playing in.
 6. Import source material to Chroma
+
     Edit the script to reflect the location of your source material, your collection name and your database location. For large books it may take a while to import but it should handle dozens or even hundreds of books on ordinary hardware. Embedding as all handled by Chroma making it very easy.
    > python3 importall.py
 7. Set up config script
+
      There are a couple of example configs included. Make your own config file, one file for each world. Have AI help you write a summary of your world or write one yourself. I like to direct the output to a markdown file in Obsidian but any text reader will work, though a markdown reader will be nicer.  
 8. Play game
    > python3 AISoloTTRPG.py --config config_world.py
